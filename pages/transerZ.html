@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;900&family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleZerch.css">
+    <title>Team 6 Bank</title>
+</head>
+
+<body>
+    <div class="container d-flex flex-column align-items-center my-mt-2">
+        <div class="row">
+            <div class="col">
+                <h1 class="my-titulo_2">TRANSFERENCIA</h1>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center my-mt-1" style="width:50%">
+            <div class="col-5">
+                <label for="trProducto" class="tr-my-label">Producto:</label>
+            </div>
+            <div class="col-7  ">
+                <select class="form-control" id="trProducto">
+                    <option value="0">Selecciona una opcion...</option>
+                    <option value="1">No. Cuenta</option>
+                    <option value="2">No. Tarjeta</option>
+                    <option value="3">Clabe Interbancaria</option>
+                  </select>
+            </div>
+            <div class="col-5 mt-3">
+                <label for="trBanco" class="tr-my-label">Banco:</label>
+            </div>
+            <div class="col-7 mt-3 ">
+                <select class="form-control" id="trBanco">
+                    <option value="0">Selecciona Banco...</option>
+                    <option value="1">BANAMEX</option>
+                    <option value="2">BANCOMER</option>
+                    <option value="3">SCOTIABANK</option>
+                    <option value="4">BANCO AZTECA</option>
+                    <option value="5">HSBC</option>
+                    <option value="6">BANORTE</option>
+                  </select>
+            </div>
+            <div class="col-5 mt-3">
+                <label for="trCuenta" class="tr-my-label">No. Cuenta / Tarjeta:</label>
+            </div>
+            <div class="col-7 mt-3 ">
+                <input type="text" class="form-control" id="trCuenta">
+            </div>
+            <div class="col-5 mt-3">
+                <label for="trBeneficiario" class="tr-my-label">Nombre Beneficiario:</label>
+            </div>
+            <div class="col-7 mt-3 ">
+                <input type="text" class="form-control" id="trBeneficiario">
+            </div>
+            <div class="col-5 mt-3">
+                <label for="trImporte" class="tr-my-label">Importe:</label>
+            </div>
+            <div class="col-7 mt-3 ">
+                <input type="text" class="form-control" id="trImporte">
+            </div>
+            <div class="col-5 mt-3">
+                <label for="trMotivo" class="tr-my-label">Motivo de Pago:</label>
+            </div>
+            <div class="col-7 mt-3 ">
+                <input type="text" class="form-control" id="trMotivo">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <input id="transferBtn" class="btn my-btn-2 my-mt-2" type="button" value="TRANSFERIR" onclick="transferir()">
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/transferZ.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
