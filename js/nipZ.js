@@ -31,3 +31,7 @@ nipInpt.addEventListener("keydown", function(e) {
         ingresaNip();
     }
 });
+
+function regresar() {
+    window.location = "../index.html";
+}

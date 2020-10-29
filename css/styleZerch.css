@@ -44,7 +44,8 @@ body {
     border-radius: 50px;
 }
 
-.my-btn:hover {
+.my-btn:hover,
+.my-btn-2:hover {
     background-color: #7d589e;
     font-weight: 900;
     color: #fff;
@@ -77,4 +78,36 @@ body {
 .my-input:active,
 .my-input:focus {
     outline: 0;
+}
+
+.my-card {
+    padding: 40px;
+}
+
+.card-img {
+    border-radius: 50px;
+}
+
+.card-img-selected {
+    padding: 10px;
+    border: dashed 5px #503269b7;
+}
+
+.my-cont-serv {
+    width: 70%;
+}
+
+.my-return-arrow {
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.my-h2 {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    border-bottom: 5px solid;
+    width: fit-content;
 }

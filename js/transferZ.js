@@ -29,3 +29,7 @@ function validarTransferencia() {
     }
 
 }
+
+function regresar() {
+    window.location = "../seleccionoperacion.html";
+}
